@@ -1,5 +1,12 @@
 //// IMPORT JSON FILES ////
 
+// var pop_source = '../JSON_data/Aus_Population.json'
+// var income_source = '../JSON_data/Aus_Income.json'
+// var per_capita_source = '../JSON_data/energy_production_per_capita.JSON'
+// var energy_progression_source = '../JSON_data/energy_progression.JSON'
+// var population_renewable_energy_source = '../JSON_data/population_renewable_energy.JSON'
+// var income_renewable_energy_source = '../JSON_data/income_renewable_energy.JSON'
+
 var pop_source = 'JSON_data/Aus_Population.json'
 var income_source = 'JSON_data/Aus_Income.json'
 var per_capita_source = 'JSON_data/energy_production_per_capita.JSON'
