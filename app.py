@@ -11,14 +11,14 @@ Dashboard_Overview = "Reviewing Australian's energy production, state by state, 
 
 # create route that renders index.html template
 @app.route("/")
-def echo():
+def rendertitle():
 
     return render_template("index.html", Title=Title)
 
 
 # Bonus add a new route
 @app.route("/")
-def echo():
+def rendersubtitle():
 
     return render_template("index.html", Dashboard_Overview=Dashboard_Overview)
 
