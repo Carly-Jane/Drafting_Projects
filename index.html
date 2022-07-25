@@ -133,61 +133,72 @@
                         <p class="card-text"><br><br>Do states with a higher population have a higher percentage of
                             renewable energy
                             production? State population vs the % of energy productions that is renewable.<br><br>
+
+                        <div id="population_vs_renewable_energy_plot"></div>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">card foot text</small>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Data Visualisation 6</h5>
-                        <p class="card-text"><br>Do states with a higher median income have a higher percentage of
-                            renewable energy
-                            production? State median income vs the % of energy productions that is
-                            renewable.<br><br><br><br>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">card foot text</small>
+
+            <!-- NEW ROW  -->
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Visualisation 6</h5>
+                            <p class="card-text"><br>Do states with a higher median income have a higher percentage of
+                                renewable energy
+                                production? State median income vs the % of energy productions that is
+                                renewable.<br><br><br><br>
+                            <div id="income_vs_renewable_energy_plot"></div>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">card foot text</small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Row 4 -->
-        <br>
+            <br>
+            <!-- Row -->
+            <br>
 
-        <div class="row">
-            <div class="col">
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Data Visualisation 4 - INTERACTIVE MAP</h5>
-                        <p class="card-text"><br><br>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Visualisation 4 - INTERACTIVE MAP</h5>
+                            <p class="card-text"><br><br>
 
-                            * INTERACTIVE MAP - locations of power plants with icons that indicate renewable energy
-                            plans and non
-                            renewable energy plants
+                                * INTERACTIVE MAP - locations of power plants with icons that indicate renewable energy
+                                plans and non
+                                renewable energy plants
 
-                            Maybe a visualisation that shows each state renewables growth? Ie, a double bar graph,
-                            showing the amount
-                            of renewable plants in WA in 2013 next to the amount of renewable plants in WA in 2020
-                            Using Dataframes 14/15, 17/18 & 20/21.
+                                Maybe a visualisation that shows each state renewables growth? Ie, a double bar graph,
+                                showing the amount
+                                of renewable plants in WA in 2013 next to the amount of renewable plants in WA in 2020
+                                Using Dataframes 14/15, 17/18 & 20/21.
+
+                            <div id="energy_progression_plot"></div>
 
                             <br><br>
-                        </p>
-                        <p class="card-footer"><small class="text-muted">card foot text</small></p>
+                            </p>
+                            <p class="card-footer"><small class="text-muted">card foot text</small></p>
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- COMPLETE - GRID / PAGE LAYOUT -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-            <script src="https://d3js.org/d3.v5.min.js"></script>
-            <script src="population_plot.js"></script>
-            <script src="../JSON_data/Aus_Population.json"></script>
+                <!-- COMPLETE - GRID / PAGE LAYOUT -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+                <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+                <script src="https://d3js.org/d3.v5.min.js"></script>
+                <script src="population_plot.js"></script>
+                <script src="plots.js"></script>
+                <script src="../JSON_data/Aus_Population.json"></script>
 </body>
 
 <!-- PAGE FOOTER -->
