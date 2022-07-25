@@ -135,8 +135,8 @@ function buildPerCapita(state) {
 //// STATE RENEWABLE & NON RENEWABLE ENERGY PROGRESSIONS (2014 - 2021) PLOT ////
 // id="energy_progression_plot"
 
-function buildPopulationVsRenewablePlot(PVR) {
-    d3.json(population_renewable_energy_source).then(function (data) {
+function buildProgressionPlot(progression) {
+    d3.json(energy_progression_source).then(function (data) {
         console.log(data.map(object => object.State));
 
         var State = data.map(object => object.State)
